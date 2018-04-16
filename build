@@ -1,4 +1,4 @@
 #!/bin/bash
 
-set -x
+set -ex
 g++ -std=c++11 hypot.cpp -o hypot

@@ -26,7 +26,7 @@ config read_config(string& root) {
 
         return cfg;
 	} else{
-		cout << "File " << config_name << "  not found." << endl;
+		cout << "File " << config_name << " not found." << endl;
 	}
 }
 
